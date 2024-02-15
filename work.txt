@@ -1,0 +1,23 @@
+TODO:
+    - choose colors
+        - ?
+    - content index
+        - ?
+    - content projects
+        *- carosel
+        - templete for projects
+        - fill in templetes
+
+test:
+    - check grammar and spelling
+
+issues:
+    - check the footer
+
+colors
+    - general backgorunds - 
+    - cv buttons (+hover) -
+
+fonts
+    - sans serif
+    - monospace

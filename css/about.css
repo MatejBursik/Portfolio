@@ -1,0 +1,149 @@
+#profileCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 550px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+#profileCard h2,
+#HIF h2{
+    font-size: xx-large;
+}
+
+#profileCard p,
+#HIF p{
+    font-size: large;
+}
+
+#profileMe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+#profileMe img{
+    max-width: 90%;
+    border-radius: 15px;
+}
+
+#profileMe h2{
+    font-family: monospace;
+}
+
+#profileAbout{
+    width: 60%;
+    padding: 10px;
+}
+
+#profileAbout h2{
+    font-family: monospace;
+}
+
+#profileAbout h2{
+    font-family: sans-serif;
+}
+
+#PHIF{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cv{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+}
+
+#cv img{
+    max-width: 80%;
+}
+
+#cvButtons{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.cvButton{
+    width: 25%;
+    background-color: aqua; /**/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+    color: black; /**/
+}
+
+.cvButton:hover{
+    background-color: #383c41; /**/
+}
+
+#HIF{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#HIF h2,
+#HIF p{
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 575px){
+    section{
+        margin: 20px;
+    }
+
+    #profileCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #profileMe{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+    
+    #profileMe img{
+        max-width: 50%;
+        border-radius: 10px;
+    }
+    
+    #profileAbout{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 875px){
+    #PHIF{
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: space-between;
+    }
+
+    #cv{
+        width: 95%;
+    }
+
+    #HIF{
+        width: 95%;
+        margin-bottom: 25px;
+    }
+}
