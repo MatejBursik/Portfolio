@@ -1,7 +1,7 @@
 # Portfolio
 
 This repository is the source for my online-portfolio.
-[(LINK)]()
+[(LINK)](https://matejbursik.netlify.app)
 
 ### Sources
 
