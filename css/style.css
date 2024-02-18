@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-section{
-    margin: 50px;
+header, footer{
+    z-index: 99;
 }
 
 a{
@@ -36,14 +36,6 @@ a{
 .navButton:hover{
     background-color: #383c41;
 }
-
-/*
-footer{
-    position: sticky;
-    width: 100%;
-    bottom: 0px;
-}
-*/
 
 #foot{
     display: flex;

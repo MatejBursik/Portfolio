@@ -1,22 +1,22 @@
 TODO:
+    - favicon
     - choose colors
         - ?
     - content index
+        - carousel (add images)
+        - check grammar and spelling
         - ?
-    - content projects
-        *- carosel
-        - templete for projects
-        - fill in templetes
-
-test:
-    - check grammar and spelling
+    *- content projects
+        - add images, gifs and demos to projects
+        - style projects (border-radius + turquoise backgorund)
 
 issues:
-    - check the footer
+    - carousel image coverage and resizing
 
 colors
     - general backgorunds - 
     - cv buttons (+hover) -
+    - projects sideNav (a bit lighter)
 
 fonts
     - sans serif
