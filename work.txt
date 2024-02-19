@@ -1,13 +1,11 @@
 TODO:
-    - favicon
-    - content about,projects
-        - make important thing bold
     - content index
         - carousel (add images)
 
 issues:
     - carousel image coverage and resizing (try width 100%, check id/class naming)
     - look at styling of about me when resizing
+    - maybe make important thing bold (not visible enough)
 
 fonts
     - sans serif

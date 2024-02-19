@@ -2,25 +2,31 @@ section{
     margin: 50px;
 }
 
+#profileACS{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 #profileCard{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     max-width: 550px;
-    margin: auto;
     padding: 15px;
     border-radius: 15px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 #profileCard h2,
-#HIF h2{
+#HIF h2,
+#ACS h2{
     font-size: xx-large;
 }
 
 #profileCard p,
-#HIF p{
+#HIF p,
+#ACS p{
     font-size: large;
 }
 
@@ -102,8 +108,14 @@ section{
     justify-content: space-evenly;
 }
 
+#ACS{
+    width: 30%;
+}
+
 #HIF h2,
-#HIF p{
+#HIF p,
+#ACS h2,
+#ACS p{
     margin-bottom: 10px;
 }
 
@@ -142,6 +154,15 @@ section{
         display: flex;
         flex-direction: column-reverse;
         align-content: space-between;
+    }
+
+    #profileACS{
+        flex-direction: column;
+    }
+
+    #ACS{
+        width: 95%;
+        margin-top: 25px;
     }
 
     #cv{

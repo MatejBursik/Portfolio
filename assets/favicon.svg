@@ -1,0 +1,16 @@
+<svg width="100" height="100">
+    <!-- background -->
+    <rect rx="15" ry="15" width="100" height="100" fill="lightblue"></rect>
+    <polygon points="50 15, 80 35, 80 65, 50 85, 20 65, 20 35" fill="lightblue" stroke="blue" stroke-width="4"></polygon>
+    <!-- M -->
+    <line x1="25" y1="37" x2="25" y2="63" stroke="black" stroke-width="4" stroke-linecap="round"></line>
+    <line x1="47" y1="23" x2="47" y2="77" stroke="black" stroke-width="4" stroke-linecap="round"></line>
+    <line x1="25" y1="37" x2="36" y2="50" stroke="black" stroke-width="4" stroke-linecap="round"></line>
+    <line x1="47" y1="23" x2="36" y2="50" stroke="black" stroke-width="4" stroke-linecap="round"></line>
+    <!-- B -->
+    <line x1="53" y1="23" x2="53" y2="77" stroke="black" stroke-width="4" stroke-linecap="round"></line>
+    <line x1="53" y1="23" x2="75" y2="38" stroke="black" stroke-width="4" stroke-linecap="round"></line>
+    <line x1="53" y1="48" x2="75" y2="38" stroke="black" stroke-width="4" stroke-linecap="round"></line>
+    <line x1="53" y1="48" x2="75" y2="63" stroke="black" stroke-width="4" stroke-linecap="round"></line>
+    <line x1="53" y1="77" x2="75" y2="63" stroke="black" stroke-width="4" stroke-linecap="round"></line>
+</svg>
