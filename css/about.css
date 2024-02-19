@@ -66,7 +66,7 @@ section{
 }
 
 #cv img{
-    max-width: 80%;
+    max-width: 60%;
 }
 
 #cvButtons{
@@ -80,17 +80,19 @@ section{
 
 .cvButton{
     width: 25%;
-    background-color: aqua; /**/
+    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     border-radius: 10px;
     padding: 5px;
     color: black; /**/
 }
 
 .cvButton:hover{
-    background-color: #383c41; /**/
+    background-color: #86e6dc;
+    text-decoration: underline;
 }
 
 #HIF{

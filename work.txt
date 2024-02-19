@@ -6,18 +6,12 @@ TODO:
         - carousel (add images)
         - check grammar and spelling
         - ?
-    *- content projects
-        - add images, gifs and demos to projects
-        - style projects (border-radius + turquoise backgorund)
 
 issues:
-    - carousel image coverage and resizing
-
-colors
-    - general backgorunds - 
-    - cv buttons (+hover) -
-    - projects sideNav (a bit lighter)
+    - carousel image coverage and resizing (try width 100%, check id/class naming)
+    - look at styling of about me when resizing
 
 fonts
     - sans serif
     - monospace
+    - Courier, monospace

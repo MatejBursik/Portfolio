@@ -1,27 +1,112 @@
 #sideNav,
 #sideNavBack{
     position: fixed;
-    top: 60px;
     left: 0px;
-    z-index: 2;
     width: 250px;
     height: 100%;
     padding: 25px;
 }
 
 #sideNavBack{
-    background-color: #212529;
+    background-color: #2f3236;
     z-index: -1;
     top: 0px;
 }
 
+#sideNav{
+    z-index: 2;
+    top: 60px;
+}
+
+#sideNav h2{
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding-bottom: 25px;
+    font-family: monospace;
+    font-size: xxx-large;
+}
+
+#sideNav a,
+#toTop a{
+    font-family: Courier, monospace;
+    font-weight: bold;
+    display: block;
+    color: whitesmoke;
+    padding-top: 15px;
+}
+
+#sideNav a:hover,
+#toTop a:hover{
+    color: #55ff55;
+}
+
+#toTop{
+    position: fixed;
+    z-index: 3;
+    width: 250px;
+    left: 0px;
+    bottom: 60px;
+    text-align: center;
+    padding: 25px;
+}
+
 #projects{
     padding-left: 250px;
-    width: 95%;
+    width: 100%;
+    z-index: 1;
 }
 
 .project{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #86e6dc;
+    padding: 25px;
     margin: 25px;
+}
+
+.project:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.text{
+    width: 45%;
+}
+
+.text h2{
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+.text h3{
+    font-family: monospace;
+    font-size: x-large;
+    margin-top: 15px;
+}
+
+.text p{
+    font-size: large;
+    margin-top: 5px;
+}
+
+.text a{
+    color: rgb(46, 46, 255);
+}
+
+.text a:hover{
+    color: rgb(253, 46, 46);
+    text-decoration: underline;
+}
+
+.images{
+    display: flex;
+    width: 45%;
+}
+
+.images img{
+    padding: 5px;
+    width: 100%;
+    object-fit: contain;
 }
 
 @media screen and (max-width: 875px){
@@ -30,7 +115,24 @@
         margin: auto;
     }
 
-    #sideNav{
+    #sideNav,
+    #sideNavBack,
+    #toTop{
         display: none;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    .project,
+    .project:nth-child(even){
+        flex-direction: column;
+    }
+
+    .text{
+        width: 100%;
+    }
+
+    .images{
+        width: 100%;
     }
 }
