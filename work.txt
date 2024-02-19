@@ -1,11 +1,9 @@
 TODO:
     - favicon
-    - choose colors
-        - ?
+    - content about,projects
+        - make important thing bold
     - content index
         - carousel (add images)
-        - check grammar and spelling
-        - ?
 
 issues:
     - carousel image coverage and resizing (try width 100%, check id/class naming)
