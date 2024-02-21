@@ -2,10 +2,5 @@ TODO:
 
 issues:
     *- carousel image coverage and resizing (try width 100%, check id/class naming)
-    - look at styling of About Me when resizing
     - maybe make important thing bold (not visible enough)
-
-fonts
-    - sans serif
-    - monospace
-    - Courier, monospace
+    *- favicon is broken

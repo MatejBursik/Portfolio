@@ -149,24 +149,30 @@ section{
     }
 }
 
-@media screen and (max-width: 875px){
-    #PHIF{
-        display: flex;
-        flex-direction: column-reverse;
-        align-content: space-between;
-    }
-
+@media screen and (max-width: 1045px){
     #profileACS{
         flex-direction: column;
     }
 
     #ACS{
         width: 95%;
+        margin: auto;
         margin-top: 25px;
     }
 
+    #profileCard{
+        margin: auto;
+    }
+
+    #PHIF{
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: space-between;
+    }
+
     #cv{
-        width: 95%;
+        width: 75%;
+        margin: auto;
     }
 
     #HIF{
