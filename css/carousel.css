@@ -34,7 +34,7 @@
     width: 100%;
     object-fit: cover;
     opacity: 0;
-    animation: display 25s infinite;
+    animation: display 35s infinite;
 }
 
 img:nth-child(2){
@@ -48,4 +48,10 @@ img:nth-child(4){
 }
 img:nth-child(5){
     animation-delay: 20s;
+}
+img:nth-child(6){
+    animation-delay: 25s;
+}
+img:nth-child(7){
+    animation-delay: 30s;
 }
