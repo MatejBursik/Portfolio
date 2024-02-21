@@ -1,6 +1,5 @@
 TODO:
 
 issues:
-    *- carousel image coverage and resizing (try width 100%, check id/class naming)
     - maybe make important thing bold (not visible enough)
     *- favicon is broken
