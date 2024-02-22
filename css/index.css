@@ -48,15 +48,24 @@
 
 .inter{
     width: 300px;
-    font-size: larger;
-    text-align: center;
-    padding: 35px;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
-@media screen and (max-width: 808px){
+.inter h3{
+    width: 100%;
+    font-size: larger;
+    text-align: center;
+}
+
+@media screen and (max-width: 750px){
     .interList{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .inter{
+        width: 100%;
     }
 }

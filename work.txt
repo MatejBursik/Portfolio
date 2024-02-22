@@ -1,5 +1,4 @@
 TODO:
+    - maybe make important thing bold (not visible enough)
 
 issues:
-    - maybe make important thing bold (not visible enough)
-    *- favicon is broken

@@ -147,6 +147,10 @@ section{
         align-items: center;
         width: 90%;
     }
+
+    .cvButton{
+        width: 40%;
+    }
 }
 
 @media screen and (max-width: 1045px){
@@ -158,6 +162,10 @@ section{
         width: 95%;
         margin: auto;
         margin-top: 25px;
+    }
+
+    #ACS h2{
+        text-align: center;
     }
 
     #profileCard{
@@ -178,5 +186,6 @@ section{
     #HIF{
         width: 95%;
         margin-bottom: 25px;
+        margin: auto;
     }
 }
