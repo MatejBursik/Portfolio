@@ -19,7 +19,8 @@
 }
 
 #sideNav h2{
-    border-bottom: 2px solid black;
+    color: whitesmoke;
+    border-bottom: 2px solid whitesmoke;
     text-align: center;
     padding-bottom: 25px;
     font-family: monospace;
