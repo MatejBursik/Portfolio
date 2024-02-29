@@ -1,4 +1,5 @@
 TODO:
-    - maybe make important thing bold (not visible enough)
+    - translate selection (eng,sk,be)
 
 issues:
+    - remake CV colors to match portfolio

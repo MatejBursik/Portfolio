@@ -51,6 +51,17 @@ section{
     padding: 10px;
 }
 
+#profileAbout a,
+#HIF a{
+    color: black;
+}
+
+#profileAbout a:hover,
+#HIF a:hover{
+    color: #2c00a5;
+    text-decoration: underline;
+}
+
 #profileAbout h2{
     font-family: monospace;
 }

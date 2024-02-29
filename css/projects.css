@@ -29,8 +29,8 @@
 
 #sideNav a,
 #toTop a{
-    font-family: Courier, monospace;
-    font-weight: bold;
+    font-family: monospace;
+    font-size: large;
     display: block;
     color: whitesmoke;
     padding-top: 15px;
@@ -38,7 +38,8 @@
 
 #sideNav a:hover,
 #toTop a:hover{
-    color: #55ff55;
+    /*color: #55ff55;*/
+    color: #5edddd;
 }
 
 #toTop{
@@ -91,11 +92,11 @@
 }
 
 .text a{
-    color: rgb(46, 46, 255);
+    color: #5222d4; /*rgb(46, 46, 255);*/
 }
 
 .text a:hover{
-    color: rgb(253, 46, 46);
+    color: #2c00a5;
     text-decoration: underline;
 }
 

@@ -61,3 +61,7 @@ a{
 .footButton a:hover{
     color: #808080;
 }
+
+.bold{
+    font-weight: bolder;
+}

@@ -20,6 +20,19 @@
     margin: 0;
 }
 
+#waterMark{
+    font-size: 9px;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 2.5px;
+
+    position: absolute;
+    top: 440px;
+    right: 2.5px;
+    z-index: 2;
+    opacity: 0.5;
+}
+
 .pic-ctn{
     position: relative;
     width: 100%;
