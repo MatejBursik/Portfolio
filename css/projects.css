@@ -27,8 +27,15 @@
     font-size: xxx-large;
 }
 
-#sideNav a,
-#toTop a{
+#sideNav h3{
+    color: whitesmoke;
+    border-top: 2px solid whitesmoke;
+    text-align: center;
+    padding-top: 25px;
+    font-family: monospace;
+}
+
+#sideNav a{
     font-family: monospace;
     font-size: large;
     display: block;
@@ -37,19 +44,9 @@
 }
 
 #sideNav a:hover,
-#toTop a:hover{
+#sideNav h3:hover{
     /*color: #55ff55;*/
     color: #5edddd;
-}
-
-#toTop{
-    position: fixed;
-    z-index: 3;
-    width: 250px;
-    left: 0px;
-    bottom: 60px;
-    text-align: center;
-    padding: 25px;
 }
 
 #projects{
@@ -127,8 +124,7 @@
     }
 
     #sideNav,
-    #sideNavBack,
-    #toTop{
+    #sideNavBack{
         display: none;
     }
 }

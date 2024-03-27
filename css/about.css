@@ -97,7 +97,7 @@ section{
 
 .cvButton{
     width: 25%;
-    background-color: aqua;
+    background-color: #86e6dc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,7 +108,7 @@ section{
 }
 
 .cvButton:hover{
-    background-color: #86e6dc;
+    background-color: #70d8ce;
     text-decoration: underline;
 }
 
