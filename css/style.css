@@ -13,12 +13,6 @@ header{
     width: 100%;
 }
 
-#spacer{
-    height: 60px;
-    margin: 0;
-    padding: 0;
-}
-
 a{
     text-decoration: none;
 }
@@ -27,10 +21,16 @@ a{
     text-decoration: underline;
 }
 
+#spacer{
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
 #navBar{
     display: flex;
     width: 100%;
-    height: 60px;
+    height: 50px;
     flex-direction: row;
     background-color: #212529;
 }

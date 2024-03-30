@@ -83,12 +83,11 @@ section{
 }
 
 #cv img{
-    max-width: 60%;
+    max-width: 80%;
 }
 
 #cvButtons{
     width: 100%;
-    height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -96,7 +95,8 @@ section{
 }
 
 .cvButton{
-    width: 25%;
+    width: 30%;
+    height: 50px;
     background-color: #86e6dc;
     display: flex;
     justify-content: center;
@@ -104,7 +104,7 @@ section{
     text-align: center;
     border-radius: 10px;
     padding: 5px;
-    color: black; /**/
+    color: black;
 }
 
 .cvButton:hover{
@@ -128,6 +128,53 @@ section{
 #ACS h2,
 #ACS p{
     margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1250px){
+    #PHIF{
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: space-between;
+    }
+
+    #cv{
+        width: 70%;
+        margin: auto;
+    }
+
+    #HIF{
+        width: 80%;
+        padding-top: 50px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 1045px){
+    #profileACS{
+        flex-direction: column;
+    }
+
+    #ACS{
+        width: 80%;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    #ACS h2{
+        text-align: center;
+    }
+
+    #profileCard{
+        margin: auto;
+    }
+
+    #cv{
+        width: 75%;
+    }
+
+    .cvButton{
+        width: 40%;
+    }
 }
 
 @media screen and (max-width: 575px){
@@ -159,44 +206,22 @@ section{
         width: 90%;
     }
 
-    .cvButton{
-        width: 40%;
+    #ACS,
+    #HIF{
+        width: 90%;
     }
 }
 
-@media screen and (max-width: 1045px){
-    #profileACS{
-        flex-direction: column;
-    }
-
-    #ACS{
-        width: 95%;
-        margin: auto;
-        margin-top: 25px;
-    }
-
-    #ACS h2{
-        text-align: center;
-    }
-
-    #profileCard{
-        margin: auto;
-    }
-
-    #PHIF{
+@media screen and (max-width: 505px){
+    #cvButtons{
         display: flex;
-        flex-direction: column-reverse;
-        align-content: space-between;
+        flex-direction: column;
+        margin-top: 0px;
     }
-
-    #cv{
-        width: 75%;
+    
+    .cvButton{
+        width: 70%;
         margin: auto;
-    }
-
-    #HIF{
-        width: 95%;
-        margin-bottom: 25px;
-        margin: auto;
+        margin-top: 20px;
     }
 }

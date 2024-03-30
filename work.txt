@@ -1,9 +1,9 @@
 TODO:
     - translate selection (eng,sk,be)
-    - make projects on the index into peto box design if clicked they are linked to the specific project in projects
+    - make projects on the index into bento box design if clicked they are linked to the specific project in projects
+    - add fonts
 
 issues:
-    *- remake CV colors to match portfolio
     - update linkedin Banner
 
 colors:
@@ -11,3 +11,5 @@ colors:
     - #49535a
     - #32383d
     - #212529
+
+fonts:
