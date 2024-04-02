@@ -22,8 +22,7 @@
     color: whitesmoke;
     border-bottom: 2px solid whitesmoke;
     text-align: center;
-    padding-bottom: 25px;
-    font-family: monospace;
+    padding-bottom: 15px;
     font-size: xxx-large;
 }
 
@@ -32,11 +31,9 @@
     border-top: 2px solid whitesmoke;
     text-align: center;
     padding-top: 25px;
-    font-family: monospace;
 }
 
 #sideNav a{
-    font-family: monospace;
     font-size: large;
     display: block;
     color: whitesmoke;
@@ -45,7 +42,6 @@
 
 #sideNav a:hover,
 #sideNav h3:hover{
-    /*color: #55ff55;*/
     color: #5edddd;
 }
 
@@ -72,19 +68,23 @@
     width: 45%;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 .text h2{
-    font-family: monospace;
+    font-family: "Libre Baskerville", serif;
     font-size: xx-large;
+    text-align: center;
 }
 
 .text h3{
-    font-family: monospace;
     font-size: x-large;
     margin-top: 15px;
 }
 
 .text p{
-    font-size: large;
+    font-family: "Quicksand", sans-serif;
+    font-size: medium;
     margin-top: 5px;
 }
 

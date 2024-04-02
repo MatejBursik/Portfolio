@@ -1,10 +1,9 @@
 TODO:
     - translate selection (eng,sk,be)
     - make projects on the index into bento box design if clicked they are linked to the specific project in projects
-    - add fonts
 
 issues:
-    - update linkedin Banner
+    project titles should be in top center
 
 colors:
     - #86e6dc
@@ -13,3 +12,8 @@ colors:
     - #212529
 
 fonts:
+    - exo 2
+    - quicksand
+    - teko
+    - monospace
+    - arial

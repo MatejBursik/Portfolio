@@ -29,7 +29,7 @@
     width: 100%;
     object-fit: cover;
     opacity: 0;
-    transition: all 1.5s;
+    transition: opacity 1.5s;
 }
 
 img:nth-child(1){

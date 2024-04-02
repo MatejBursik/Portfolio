@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-header, footer{
+header,
+footer{
     z-index: 99;
 }
 

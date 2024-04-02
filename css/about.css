@@ -27,7 +27,7 @@ section{
 #profileCard p,
 #HIF p,
 #ACS p{
-    font-size: large;
+    font-size: medium;
 }
 
 #profileMe{
@@ -40,10 +40,6 @@ section{
 #profileMe img{
     max-width: 90%;
     border-radius: 15px;
-}
-
-#profileMe h2{
-    font-family: monospace;
 }
 
 #profileAbout{
@@ -60,14 +56,6 @@ section{
 #HIF a:hover{
     color: #2c00a5;
     text-decoration: underline;
-}
-
-#profileAbout h2{
-    font-family: monospace;
-}
-
-#profileAbout h2{
-    font-family: sans-serif;
 }
 
 #PHIF{
