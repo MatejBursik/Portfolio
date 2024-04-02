@@ -52,15 +52,18 @@
 }
 
 .project{
-    display: flex;
-    justify-content: space-between;
     border-radius: 10px;
     background-color: #86e6dc;
     padding: 25px;
     margin: 25px;
 }
 
-.project:nth-child(even){
+.projectInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectInfoReverse{
     flex-direction: row-reverse;
 }
 
@@ -71,7 +74,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-.text h2{
+.project h2{
     font-family: "Libre Baskerville", serif;
     font-size: xx-large;
     text-align: center;
@@ -130,8 +133,7 @@
 }
 
 @media screen and (max-width: 1250px){
-    .project,
-    .project:nth-child(even){
+    .projectInfo{
         flex-direction: column;
     }
 

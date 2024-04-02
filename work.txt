@@ -3,7 +3,6 @@ TODO:
     - make projects on the index into bento box design if clicked they are linked to the specific project in projects
 
 issues:
-    project titles should be in top center
 
 colors:
     - #86e6dc
