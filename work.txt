@@ -1,7 +1,8 @@
 TODO:
     - add projects (machine/deep learning, projectPHP)
     - translate selection (eng,sk,be)
-    - add geridient or interactive background for all pages
+    *- add geridient or interactive background for all pages
+    - add progress bars for most relepant programming skills to about.html
     
 issues:
 

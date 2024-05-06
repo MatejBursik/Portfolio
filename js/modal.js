@@ -40,6 +40,8 @@ for (let i=0; i < show.length; i++){
         proj.images.forEach(link => {
             mImage.innerHTML += '<img src="' + link + '">';
         });
+
+        modal.scrollTop = 0;
     });
 }
 
