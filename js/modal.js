@@ -1,5 +1,3 @@
-let mBKG = document.getElementById('model-bkg');
-let modal = document.getElementById('modal');
 let mTitle = document.getElementById('title');
 let mDescription = document.getElementById('description');
 let mReason = document.getElementById('reason');
@@ -7,6 +5,9 @@ let mWIL = document.getElementById('wil');
 let mSource = document.getElementById('source');
 let mImage = document.getElementById('images');
 
+let mExit = document.getElementById('modal-exit-btn');
+let mBKG = document.getElementById('model-bkg');
+let modal = document.getElementById('modal');
 let show = document.getElementsByClassName("modal-show");
 let click;
 
@@ -46,6 +47,11 @@ for (let i=0; i < show.length; i++){
 }
 
 mBKG.addEventListener('click', function(e) {
+    modal.style.display = "none";
+    mBKG.style.display = "none";
+});
+
+mExit.addEventListener('click', function(e) {
     modal.style.display = "none";
     mBKG.style.display = "none";
 });

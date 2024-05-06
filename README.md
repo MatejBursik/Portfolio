@@ -7,5 +7,6 @@ This repository is the source for my online-portfolio.
 
 - Hosted on [Netlify](https://www.netlify.com/)
 - Icons [Fontawesome](https://fontawesome.com/search?o=r&m=free)
+- SVGs [Icons8](https://icons8.com/icons/)
 - Fonts [Google Fonts](https://fonts.google.com/)
 - PDF to HTML [Cloud Convert](https://cloudconvert.com/)

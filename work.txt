@@ -1,13 +1,13 @@
 TODO:
-    - data: add projects (machine/deep learning, projectPHP)
+    - data: add projects (machine/deep learning, projectPHP, alpaca jumper)
     - feature: translate selection (eng,sk,be)
     - feature: make explanation videos for more complex projects
-    - feature: add progress bars for most relepant programming skills to about.html
-    *- style: add geridient or interactive background for all pages
-    *- feature: add exit button at to the modal
-    - style: get a better image for 'Dungeon Quest'
+    - feature: replace 'Why Thomas More' with progress bars for most relepant programming skills to about.html
+    - style: add geridient or interactive background for all pages
+    *- style: get a better image for 'Dungeon Quest'
     
 issues:
+    - projects.html: make the images in the modal a bit smaller in the large screens
 
 colors:
     - #86e6dc

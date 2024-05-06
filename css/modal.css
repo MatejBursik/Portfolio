@@ -68,12 +68,29 @@
     border-radius: 50px;
 }
 
+#modal-exit-btn{
+    position: fixed;
+    top: calc(90% - 20px);
+    left: calc(50% - 20px);
+    z-index: 102;
+
+    color: maroon;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 100%;
+    font-size: 40px;
+}
+
 @media screen and (max-width: 474px){
     #modal{
         top: 5%;
         left: 5%;
         width: 90%;
         height: 90%;
+    }
+
+    #modal-exit-btn{
+        top: calc(95% - 20px);
     }
 }
 
