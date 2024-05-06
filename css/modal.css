@@ -7,13 +7,6 @@
     position: relative;
 }
 
-@media screen and (max-width: 375px){
-    .modal-show{
-        width: 90%;
-        height: 350px;
-    }
-}
-
 .modal-image{
     width: 100%;
     height: 100%;
@@ -61,11 +54,11 @@
 #modal{
     display: none;
     position: fixed;
-    top: 12.5%;
-    left: 12.5%;
+    top: 10%;
+    left: 10%;
     overflow-y: auto;
-    width: 75%;
-    height: 75%;
+    width: 80%;
+    height: 80%;
     opacity: 1;
     z-index: 101;
 
@@ -73,4 +66,25 @@
     background-color: #49535a;
     color: whitesmoke;
     border-radius: 50px;
+}
+
+@media screen and (max-width: 474px){
+    #modal{
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .modal-show{
+        width: 90%;
+        height: 350px;
+    }
+
+    #modal{
+        padding: 25px;
+        border-radius: 25px;
+    }
 }

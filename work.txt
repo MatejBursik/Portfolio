@@ -1,13 +1,17 @@
 TODO:
-    - add projects (machine/deep learning, projectPHP)
-    - translate selection (eng,sk,be)
-    *- add geridient or interactive background for all pages
-    - add progress bars for most relepant programming skills to about.html
+    - data: add projects (machine/deep learning, projectPHP)
+    - feature: translate selection (eng,sk,be)
+    - feature: make explanation videos for more complex projects
+    - feature: add progress bars for most relepant programming skills to about.html
+    *- style: add geridient or interactive background for all pages
+    *- feature: add exit button at to the modal
+    - style: get a better image for 'Dungeon Quest'
     
 issues:
 
 colors:
     - #86e6dc
+    - #a688f8
     - #49535a
     - #32383d
     - #212529

@@ -30,7 +30,7 @@ for (let i=0; i < show.length; i++){
         mWIL.innerText = proj.wil;
         switch(proj.source.type){
             case "github":
-                mSource.innerHTML = '<a href="' + proj.source.href + '">Link to github</a>';
+                mSource.innerHTML = '<a href="' + proj.source.href + '" target="_blank">Link to github</a>';
                 break;
             case "report":
                 mSource.innerHTML = '<a href="' + proj.source.href + '" download>Download the report</a>';

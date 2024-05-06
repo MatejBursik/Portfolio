@@ -38,7 +38,7 @@
 }
 
 .text a{
-    color: #794afa;
+    color: #86e6dc;
 }
 
 .text a:hover{
@@ -61,5 +61,19 @@
 @media screen and (max-width: 875px){
     #images{
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 353px){
+    #title{
+        font-size: x-large;
+    }
+
+    .text h3{
+        font-size: large;
+    }
+
+    .text p{
+        font-size: small;
     }
 }
