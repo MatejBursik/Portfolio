@@ -1,7 +1,8 @@
 TODO:
+    - add projects (machine/deep learning, projectPHP)
     - translate selection (eng,sk,be)
-    - make projects on the index into bento box design if clicked they are linked to the specific project in projects
-
+    - add geridient or interactive background for all pages
+    
 issues:
 
 colors:

@@ -1,0 +1,57 @@
+{
+    "utopia" : {
+        "title" : "Dungeon Quest - Utopia project",
+        "description" : "Utopia project was a task where our group was supposed to make an interactive method for people to identify the field they would enjoy studying. As a students of Applied computer science, we were meant to created something that would let them experience some aspects of computer science. We decided to make a dungeon navigation game operated by writing commands as inputs. The commands resembled the structure of lines of common programming languages. Overall, it was meant to simulate a command line operated environment which are frequent in the computer science field. I worked mostly on the input parser and identification but I also work on the menus, error handling, structuring and testing.",
+        "reason" : "This project was part of a Professional skills 1 course at Thomas More.",
+        "wil" : "Due to this project, I learned working and structuring a medium size programming project. Since it was a group project communication and teamwork were important. The project background was given to us by a client who was later the judge of it. This thought me how to develop more based on the client's vision than my own vision. From the technical side, I improved my understanding of Pygame which is a Python game making library. Also, since it was a medium sized project, my documentation on the form of code comments improved so that we would understand code that someone else in the team has written.",
+        "source" : {
+            "type" : "github",
+            "href" : "https://github.com/MatejBursik/utopia"
+        },
+        "images" : ["assets/p1/utopia_dq.png"]
+    },
+    "memento" : {
+        "title" : "MEMENTO - Requirements analysis",
+        "description" : "The MEMENTO project is a group project in which we create an application analysis for a client. I took the role of a team lead in this group. In this role, I had to mainly make decisions about the work allocation thankfully. Our group was well balanced and communication was not an issue, so most decisions were made collectively. Our group was talking to a potential customer and we were made to analyse the customers vision for the application by producing a report. Specifically, we were talking to a person with memory issues. They wanted us to create a calendar application meant to help people with those memory issues in day to day life. The focus group of the application are people from 18 to 50 with those issues and people in their circles. For the report, our task was to provide background information, create a Use case model with a diagram and description, non-functional requirements analysis, provide a priority by functionality using the MoSCoW method, and a high-fidelity prototype.",
+        "reason" : "This project was part of a Requirement analysis course at Thomas More.",
+        "wil" : "As a team lead of our group, I learned more about managing work group by developing a better communication and managerial skills. The role also improved my understanding of how to communicate better with clients. I also got better at some technical skills like creating a Use case model using StarUML and creating overall analysis of a potential project.",
+        "source" : {
+            "type" : "report",
+            "href" : "assets/p2/Analysis_and_design_report.pdf"
+        },
+        "images" : ["assets/p2/prototype.png"]
+    },
+    "fallingSand" : {
+        "title" : "Falling sand",
+        "description" : "This project is my way of testing out a new programming language that I am interested in working with. I made simple list of requirements for the application which test visualizations, execution speed, code verboseness and user interaction capabilities. The premise of the actual application is simple. Simulate falling sand when it is spawned periodically from one spot and spawn on the cursor while the user is holding down left mouse button. After I make the application, I also rank the languages based on personal ease of use. This project is ongoing since I plan on making it in other languages which I have not used yet.",
+        "reason" : "I wanted to experiment with different programming languages in using them for simple interactive visualizations.",
+        "wil" : "The whole concept of this project is to learn and experiment with different programming languages on small scale but with them having the same result in the end so they became more comparable.",
+        "source" : {
+            "type" : "github",
+            "href" : "https://github.com/MatejBursik/Falling_sand"
+        },
+        "images" : ["assets/p3/simJS.png","assets/p3/simPY.png"]
+    },
+    "animationComp" : {
+        "title" : "Animation compiling tool",
+        "description" : "It is a command line program which is going to compile your frames of an animation into a video. As a person who does animations occasionally, I wanted a very simple tool to make my images into a video. Since, I am also a programmer, I decided to make one. This was the first time I used cv2 (computer vision 2) library in a project. The library is usually used for object recognition in images but I decided to use its features for this case.",
+        "reason" : "I wanted to make a tool for me to easily compile frames of an animation into a video format.",
+        "wil" : "As mentioned in the description, this was the first project where I used cv2. It is a very complex library and this project became a starting stone for learning how to use the library fully. This was also the first time I made a command line program in python which also required me to learn about libraries os and sys which interact with the operating system in a way that I can collect arguments for the program and find the images for the animation. Since, I wanted this tool to be used also by others, I had to learn and make decent documentation on how to use it without the user needing to read the actual code.",
+        "source" : {
+            "type" : "github",
+            "href" : "https://github.com/MatejBursik/Animation_tool"
+        },
+        "images" : ["assets/p4/animationCompTest.png"]
+    },
+    "chessBot" : {
+        "title" : "Chess bot",
+        "description" : "A friend asked me if I would like to make a chess bot and the chess game and that I would make the chess game and he would make the chess bot. Unforeseeably, I managed the finish the chess game before he finished the chess bot, so I decided to make my own chess bot. This project is still ongoing. It has two parts. Chess game where the input is based on the chess notation and application able to find the best move in given position based on Machine learning response also known as chess bot. Currently (February 2024), the chess game is finished and I am planning on making the chess bot in the upcoming months.",
+        "reason" : "A friend asked me if I would like to make a chess bot and I thought that it would be an interesting project. I wanted to learn about Machine learning and practice game making which exactly fits into this project since I needed to make a chess game replica and the chess solving program.",
+        "wil" : "Since this project is ongoing there is not a lot of new things that I learned from it. I did learn how does chess notation work and I started researching more about Machine learning which is related to the unfinished part of the project.",
+        "source" : {
+            "type" : "github",
+            "href" : "https://github.com/MatejBursik/ChessBot"
+        },
+        "images" : ["assets/p5/chessBoard.png"]
+    }
+}

@@ -1,80 +1,26 @@
-#sideNav,
-#sideNavBack{
-    position: fixed;
-    left: 0px;
-    width: 250px;
-    height: 100%;
-    padding: 25px;
-}
-
-#sideNavBack{
-    background-color: #2f3236;
-    z-index: -1;
-    top: 0px;
-}
-
-#sideNav{
-    z-index: 2;
-    top: 60px;
-}
-
-#sideNav h2{
-    color: whitesmoke;
-    border-bottom: 2px solid whitesmoke;
-    text-align: center;
-    padding-bottom: 15px;
-    font-size: xxx-large;
-}
-
-#sideNav h3{
-    color: whitesmoke;
-    border-top: 2px solid whitesmoke;
-    text-align: center;
-    padding-top: 25px;
-}
-
-#sideNav a{
-    font-size: large;
-    display: block;
-    color: whitesmoke;
-    padding-top: 15px;
-}
-
-#sideNav a:hover,
-#sideNav h3:hover{
-    color: #5edddd;
-}
-
-#projects{
-    padding-left: 250px;
-    width: 100%;
-    z-index: 1;
-}
-
-.project{
-    border-radius: 10px;
-    background-color: #86e6dc;
-    padding: 25px;
-    margin: 25px;
-}
-
-.projectInfo{
-    display: flex;
-    justify-content: space-between;
-}
-
-.projectInfoReverse{
-    flex-direction: row-reverse;
-}
-
-.text{
-    width: 45%;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-.project h2{
+#welcome{
+    padding: 50px;
+    text-align: center;
+}
+
+#welcome h1{
+    font-size: xxx-large;
+}
+
+#welcome p{
+    font-size: large;
+}
+
+.grouping{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#title{
     font-family: "Libre Baskerville", serif;
     font-size: xx-large;
     text-align: center;
@@ -92,56 +38,28 @@
 }
 
 .text a{
-    color: #5222d4; /*rgb(46, 46, 255);*/
+    color: #794afa;
 }
 
 .text a:hover{
-    color: #2c00a5;
+    color: #a688f8;
     text-decoration: underline;
 }
 
-.images{
-    display: flex;
-    width: 45%;
+#images{
+    width: 75%;
+    margin: auto;
+    margin-top: 15px;
 }
 
-.images img{
+#images img{
     padding: 5px;
     width: 100%;
     object-fit: contain;
 }
 
-#fallingSand .images{
-    width: 100%;
-    justify-content: space-evenly;
-}
-
-#fallingSand .images img{
-    width: 45%;
-}
-
 @media screen and (max-width: 875px){
-    #projects{
-        padding-left: 0;
-        margin: auto;
-    }
-
-    #sideNav,
-    #sideNavBack{
-        display: none;
-    }
-}
-
-@media screen and (max-width: 1250px){
-    .projectInfo{
-        flex-direction: column;
-    }
-
-    .text{
-        width: 100%;
-    }
-
-    .images{
+    #images{
         width: 100%;
     }
 }
