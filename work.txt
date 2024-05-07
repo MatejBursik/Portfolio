@@ -6,7 +6,6 @@ TODO:
     *- feature: change the data structure so that images include comments
     
 issues:
-    *- projects.html: adjust the side of images for screens above 1313
 
 colors:
     - #86e6dc
