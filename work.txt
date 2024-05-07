@@ -3,11 +3,9 @@ TODO:
     - feature: translate selection (eng,sk,be)
     - feature: make explanation videos for more complex projects
     - feature: replace 'Why Thomas More' with progress bars for most relepant programming skills to about.html
-    - style: add geridient or interactive background for all pages
-    *- style: get a better image for 'Dungeon Quest'
+    *- style: add geridient or interactive background for all pages
     
 issues:
-    - projects.html: make the images in the modal a bit smaller in the large screens
 
 colors:
     - #86e6dc
