@@ -87,18 +87,18 @@ section{
 .cvButton{
     width: 30%;
     height: 50px;
-    background-color: #86e6dc;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     border-radius: 10px;
     padding: 5px;
-    color: black;
+    background-color: #212529;
+    color: whitesmoke;
 }
 
 .cvButton:hover{
-    background-color: #70d8ce;
+    background-color: #383c41;
     text-decoration: underline;
 }
 

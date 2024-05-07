@@ -47,7 +47,7 @@
 }
 
 #images{
-    width: 70%;
+    width: 50%;
     margin: auto;
     margin-top: 15px;
 }
@@ -56,6 +56,12 @@
     padding: 5px;
     width: 100%;
     object-fit: contain;
+}
+
+@media screen and (max-width: 1425px){
+    #images{
+        width: 70%;
+    }
 }
 
 @media screen and (max-width: 875px){

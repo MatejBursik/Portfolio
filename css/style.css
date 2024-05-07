@@ -24,14 +24,6 @@ header{
     width: 100%;
 }
 
-a{
-    text-decoration: none;
-}
-
-#navBar a:hover{
-    text-decoration: underline;
-}
-
 #spacer{
     height: 50px;
     margin: 0;
@@ -44,6 +36,14 @@ a{
     height: 50px;
     flex-direction: row;
     background-color: #212529;
+}
+
+a{
+    text-decoration: none;
+}
+
+#navBar a:hover{
+    text-decoration: underline;
 }
 
 .navButton{
