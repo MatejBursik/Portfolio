@@ -3,7 +3,6 @@ TODO:
     - feature: translate selection (eng,sk,be)
     - feature: make explanation videos for more complex projects
     - feature: replace 'Why Thomas More' with progress bars for most relepant programming skills to about.html
-    *- feature: change the data structure so that images include comments
     
 issues:
 

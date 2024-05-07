@@ -8,7 +8,11 @@
             "type" : "github",
             "href" : "https://github.com/MatejBursik/utopia"
         },
-        "images" : ["assets/p1/utopia_dq.png"]
+        "images" : {
+            "count" : 1,
+            "src" : ["assets/p1/utopia_dq.png"],
+            "desc" : ["Screenshot of a playable demo"]
+        }
     },
     "memento" : {
         "title" : "MEMENTO - Requirements analysis",
@@ -19,7 +23,11 @@
             "type" : "report",
             "href" : "assets/p2/Analysis_and_design_report.pdf"
         },
-        "images" : ["assets/p2/prototype.png"]
+        "images" : {
+            "count" : 1,
+            "src" : ["assets/p2/prototype.png"],
+            "desc" : ["Screenshot of a Axure prototype"]
+        }
     },
     "fallingSand" : {
         "title" : "Falling sand",
@@ -30,7 +38,11 @@
             "type" : "github",
             "href" : "https://github.com/MatejBursik/Falling_sand"
         },
-        "images" : ["assets/p3/simJS.png","assets/p3/simPY.png"]
+        "images" : {
+            "count" : 3,
+            "src" : ["assets/p3/simJS.png","assets/p3/simPY.png","assets/p3/simCPP.png"],
+            "desc" : ["Javascript version","Python version","C++ version"]
+        }
     },
     "animationComp" : {
         "title" : "Animation compiling tool",
@@ -41,7 +53,11 @@
             "type" : "github",
             "href" : "https://github.com/MatejBursik/Animation_tool"
         },
-        "images" : ["assets/p4/animationCompTest.png"]
+        "images" : {
+            "count" : 1,
+            "src" : ["assets/p4/animationCompTest.png"],
+            "desc" : ["Screenshot of the compilation of the provided test animation"]
+        }
     },
     "chessBot" : {
         "title" : "Chess bot",
@@ -52,6 +68,10 @@
             "type" : "github",
             "href" : "https://github.com/MatejBursik/ChessBot"
         },
-        "images" : ["assets/p5/chessBoard.png"]
+        "images" : {
+            "count" : 1,
+            "src" : ["assets/p5/chessBoard.png"],
+            "desc" : ["Screenshot of the game board"]
+        }
     }
 }

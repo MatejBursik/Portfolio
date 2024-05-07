@@ -38,9 +38,14 @@ for (let i=0; i < show.length; i++){
                 break;
         }
         mImage.innerHTML = '';
-        proj.images.forEach(link => {
-            mImage.innerHTML += '<img src="' + link + '">';
-        });
+        for(let j=0; j<proj.images.count; j++){
+            mImage.innerHTML += '<img src="' + proj.images.src[j] + '">';
+            if(j < proj.images.count - 1){
+                mImage.innerHTML += '<h4 style="text-align: center; margin-bottom: 25px;">' + proj.images.desc[j] + '</h4>';
+            } else {
+                mImage.innerHTML += '<h4 style="text-align: center;">' + proj.images.desc[j] + '</h4>';
+            }
+        }
 
         modal.scrollTop = 0;
     });
