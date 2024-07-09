@@ -1,10 +1,10 @@
 TODO:
-    - data: add projects (machine/deep learning, projectPHP, alpaca jumper)
+    - data: add projects
     - feature: translate selection (eng,sk,be)
     - feature: make explanation videos for more complex projects
     - feature: replace 'Why Thomas More' with progress bars for most relepant programming skills to about.html
     
-issues:
+FIX:
 
 colors:
     - #86e6dc

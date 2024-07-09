@@ -31,7 +31,7 @@
     },
     "fallingSand" : {
         "title" : "Falling sand",
-        "description" : "This project is my way of testing out a new programming language that I am interested in working with. I made simple list of requirements for the application which test visualizations, execution speed, code verboseness and user interaction capabilities. The premise of the actual application is simple. Simulate falling sand when it is spawned periodically from one spot and spawn on the cursor while the user is holding down left mouse button. After I make the application, I also rank the languages based on personal ease of use. This project is ongoing since I plan on making it in other languages which I have not used yet.",
+        "description" : "This project is my way of testing out a new programming language that I am interested in working with. I made simple list of requirements for the application which test visualizations, execution speed, code verboseness and user interaction capabilities. The premise of the actual application is simple. Simulate falling sand when it is spawned periodically from one spot and spawn on the cursor while the user is holding down left mouse button. The idea comes from 'The Coding Train' on Youtube and I wanted to expand on it by challenging my self to work with different programming languages. This project is technically ongoing since I plan on making it in other languages which I have not used yet.",
         "reason" : "I wanted to experiment with different programming languages in using them for simple interactive visualizations.",
         "wil" : "The whole concept of this project is to learn and experiment with different programming languages on small scale but with them having the same result in the end so they became more comparable.",
         "source" : {
@@ -61,17 +61,17 @@
     },
     "chessBot" : {
         "title" : "Chess bot",
-        "description" : "A friend asked me if I would like to make a chess bot and the chess game and that I would make the chess game and he would make the chess bot. Unforeseeably, I managed the finish the chess game before he finished the chess bot, so I decided to make my own chess bot. This project is still ongoing. It has two parts. Chess game where the input is based on the chess notation and application able to find the best move in given position based on Machine learning response also known as chess bot. Currently (February 2024), the chess game is finished and I am planning on making the chess bot in the upcoming months.",
-        "reason" : "A friend asked me if I would like to make a chess bot and I thought that it would be an interesting project. I wanted to learn about Machine learning and practice game making which exactly fits into this project since I needed to make a chess game replica and the chess solving program.",
-        "wil" : "Since this project is ongoing there is not a lot of new things that I learned from it. I did learn how does chess notation work and I started researching more about Machine learning which is related to the unfinished part of the project.",
+        "description" : "This project started when my friend asked me if I would like to work with him on a chess bot and the chess game and that I would make the chess game and he would make the chess bot. I managed the finish the chess game quickly, so I decided to make my own chess bot. The Chess game is a web-game made in HTML, CSS, and JavaScript with API calls to a Python Flask back-end. Main responsibility of this back-end is to route traffic and respond to API calls so that the chess board can be updated after player makes a move and so that the chess board can be updated with the Bot's move. This Bot is a Neural Network model which evaluates all possible legal moves to find the best one based on its training. I created the model using Python TensorFlow Keras and generated my own training data using Stockfish chess engine. If you want to read more detail information about the model and data, please visit the GitHub link below.",
+        "reason" : "A friend asked me if I would like to make a chess bot and I thought that it would be an interesting project. I wanted to learn about Deep learning and Neural Networks which exactly fits into this project since I needed to make a chess solving program and a chess game.",
+        "wil" : "This project is building on top of my knowledge from an AI course that attended at Thomas More. I learn even more about Deep learning and Neural Networks. I also learned more about storing data, especially how chess game data is store and how the chess standard notation work.",
         "source" : {
             "type" : "github",
             "href" : "https://github.com/MatejBursik/ChessBot"
         },
         "images" : {
-            "count" : 1,
-            "src" : ["assets/p5/chessBoard.png"],
-            "desc" : ["Screenshot of the game board"]
+            "count" : 3,
+            "src" : ["assets/p5/chessBoard.png", "assets/p5/spectateMode.png", "assets/p5/dashboard.png"],
+            "desc" : ["Screenshot of the game board when playing as white against the Bot", "Screenshot of the game board in spectator mode", "Screenshot of the dashboard which is also the landing page"]
         }
     }
 }
