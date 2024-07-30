@@ -63,7 +63,7 @@
         "title" : "Chess bot",
         "description" : "This project started when my friend asked me if I would like to work with him on a chess bot and the chess game and that I would make the chess game and he would make the chess bot. I managed the finish the chess game quickly, so I decided to make my own chess bot. The Chess game is a web-game made in HTML, CSS, and JavaScript with API calls to a Python Flask back-end. Main responsibility of this back-end is to route traffic and respond to API calls so that the chess board can be updated after player makes a move and so that the chess board can be updated with the Bot's move. This Bot is a Neural Network model which evaluates all possible legal moves to find the best one based on its training. I created the model using Python TensorFlow Keras and generated my own training data using Stockfish chess engine. If you want to read more detail information about the model and data, please visit the GitHub link below.",
         "reason" : "A friend asked me if I would like to make a chess bot and I thought that it would be an interesting project. I wanted to learn about Deep learning and Neural Networks which exactly fits into this project since I needed to make a chess solving program and a chess game.",
-        "wil" : "This project is building on top of my knowledge from an AI course that attended at Thomas More. I learn even more about Deep learning and Neural Networks. I also learned more about storing data, especially how chess game data is store and how the chess standard notation work.",
+        "wil" : "This project is building on top of my knowledge from an AI course that attended at Thomas More. I learn even more about Deep learning and Neural Networks. I also learned more about storing data, especially how chess game data is store and how the chess standard notation work. Lastly, I learned the basics of Python Flask",
         "source" : {
             "type" : "github",
             "href" : "https://github.com/MatejBursik/ChessBot"
@@ -72,6 +72,21 @@
             "count" : 3,
             "src" : ["assets/p5/chessBoard.png", "assets/p5/spectateMode.png", "assets/p5/dashboard.png"],
             "desc" : ["Screenshot of the game board when playing as white against the Bot", "Screenshot of the game board in spectator mode", "Screenshot of the dashboard which is also the landing page"]
+        }
+    },
+    "DFSmazeGen" : {
+        "title" : "DFS (Depth First Search) Maze generation",
+        "description" : "This project covers a process of generating a maze using randomized DFS. The process involves treating the maze as a grid of cells and carving out paths between cells in a randomized manner which creates a maze that has a single connected path with no loops. The maze generation uses randomized DFS as the algorithm to create the maze. Depth First Search (DFS) is an algorithm used in computer science for traversing or searching through data structures, for example trees and graphs. The algorithm is placed in a basic Pygame game loop for visualization and re-generation of the maze if it is not suitable. Lastly, after the application window is exited, I use CV2 the make and save an image out of the maze. If you want to read more detail information about the project, please visit the GitHub link below.",
+        "reason" : "Reason for this project was that I wanted to practice programming of some basic algorithm, like the DFS that I used in this project and apply it to some simple and fun application.",
+        "wil" : "none",
+        "source" : {
+            "type" : "github",
+            "href" : "https://github.com/MatejBursik/DFS_maze_generation"
+        },
+        "images" : {
+            "count" : 2,
+            "src" : ["assets/p6/genInProgress.png", "assets/p6/finalMaze.png"],
+            "desc" : ["Screenshot of the generation process. Light blue boxes are unvisited, dark blue boxes are visited, and the red box is the top cell in the DFS stack.", "The final image of the fully generated maze"]
         }
     }
 }

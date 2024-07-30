@@ -2,6 +2,7 @@ let mTitle = document.getElementById('title');
 let mDescription = document.getElementById('description');
 let mReason = document.getElementById('reason');
 let mWIL = document.getElementById('wil');
+let mWILH3 = document.getElementById('wilH3');
 let mSource = document.getElementById('source');
 let mImage = document.getElementById('images');
 
@@ -28,7 +29,14 @@ for (let i=0; i < show.length; i++){
         mTitle.innerText = proj.title;
         mDescription.innerText = proj.description;
         mReason.innerText = proj.reason;
-        mWIL.innerText = proj.wil;
+        if(proj.wil === "none"){
+            mWIL.style.display = "none";
+            mWILH3.style.display = "none";
+        } else {
+            mWIL.innerText = proj.wil;
+            mWIL.style.display = "block";
+            mWILH3.style.display = "block";
+        }
         switch(proj.source.type){
             case "github":
                 mSource.innerHTML = '<a href="' + proj.source.href + '" target="_blank">Link to github</a>';
