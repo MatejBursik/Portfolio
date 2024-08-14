@@ -4,7 +4,8 @@ TODO:
     - feature: make explanation videos for more complex projects
     - feature: rework about.html
         - replace 'Why Thomas More' with progress bars for most relepant skills
-        - rewrite 'Hobbies and Interests' and 'Future dreams and ambitions'
+        *- rewrite 'Hobbies and Interests' and 'Future dreams and ambitions'
+        *- rewrite 'About me'
         - make a better CV
     
 FIX:
