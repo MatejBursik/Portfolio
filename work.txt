@@ -1,8 +1,11 @@
 TODO:
-    *- style: rework the grouping of projects
-    - feature: translate selection (eng,sk,be)
+    - feaute: digitally sign images
+    - feature: translate selection (eng,sk,de,be)
     - feature: make explanation videos for more complex projects
-    - feature: replace 'Why Thomas More' with progress bars for most relepant programming skills to about.html
+    - feature: rework about.html
+        - replace 'Why Thomas More' with progress bars for most relepant skills
+        - rewrite 'Hobbies and Interests' and 'Future dreams and ambitions'
+        - make a better CV
     
 FIX:
     *- images load slowly
