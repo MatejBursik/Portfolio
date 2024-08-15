@@ -4,7 +4,7 @@ TODO:
     - feature: make explanation videos for more complex projects
     - feature: rework about.html
         - replace 'Why Thomas More' with progress bars for most relepant skills
-        - make a better CV
+        *- update text on CV
     
 FIX:
     *- images load slowly
