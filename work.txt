@@ -5,7 +5,7 @@ TODO:
     - feature: rework about.html
         - replace 'Why Thomas More' with progress bars for most relepant skills
         *- update text on CV
-    - feature: photography portfolio
+    *- feature: make photography portfolio
     
 FIX:
     *- images load slowly
