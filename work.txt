@@ -4,7 +4,6 @@ TODO:
     - feature: make explanation videos for more complex projects
     - feature: rework about.html
         - replace 'Why Thomas More' with progress bars for most relepant skills
-    *- feature: make photography portfolio
     
 FIX:
     *- images load slowly
