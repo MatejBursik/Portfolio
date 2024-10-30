@@ -40,8 +40,8 @@
         },
         "images" : {
             "count" : 3,
-            "src" : ["assets/p3/simJS.png","assets/p3/simPY.png","assets/p3/simCPP.png"],
-            "desc" : ["Javascript version","Python version","C++ version"]
+            "src" : ["assets/p3/simJava.png","assets/p3/simPY.png","assets/p3/simCPP.png"],
+            "desc" : ["Java version","Python version","C++ version"]
         }
     },
     "animationComp" : {
