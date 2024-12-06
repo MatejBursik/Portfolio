@@ -1,9 +1,11 @@
 TODO:
-    *- feaute: digitally sign images (in metadata)
+    - feaute: digitally sign images (in metadata)
     - feature: translate selection (eng,sk,de,be)
     - feature: make explanation videos for more complex projects
     - feature: rework about.html
         - replace 'Why Thomas More' with progress bars for most relepant skills
+        - add IELTs to CV
+        - add R certificate to CV
     
 FIX:
     *- images load slowly
