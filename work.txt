@@ -1,18 +1,21 @@
 TODO:
     - feaute: digitally sign images (in metadata)
     - feature: translate selection (eng,sk,de,be)
-    - feature: make explanation videos for more complex projects
+    - feature: rework projects.html
+        - add new projects
+        - change the inside structure of the modal
     - feature: rework about.html
         - replace 'Why Thomas More' with progress bars for most relepant skills
-        - add IELTs to CV
-        - add R certificate to CV
+        - CV:
+            - leave licenses out of education, put them into certificates
+            - add IELTs and R course to certificates
     
 FIX:
     *- images load slowly
 
 colors:
     - #86e6dc
-    - #a688f8
+    - #046799
     - #49535a
     - #32383d
     - #212529
