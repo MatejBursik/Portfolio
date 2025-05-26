@@ -1,0 +1,86 @@
+#welcome{
+    padding: 50px;
+    text-align: center;
+}
+
+#welcome h1{
+    font-size: xxx-large;
+}
+
+#welcome h2{
+    font-size: large;
+}
+
+.exp-block{
+    background-color: #c5e5fc;
+    border: #212529 solid 1px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main h2{
+    font-size: xx-large;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.main h3{
+    font-size: medium;
+    padding-bottom: 10px;
+}
+
+.main .bars{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fa-bars{
+    font-size: xxx-large;
+    color: #212529;
+}
+
+.fa-bars:hover{
+    color: #046799;
+    text-shadow: 0 0 5px #212529;
+}
+
+.details{
+    display: none;
+}
+
+.split{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.split:nth-of-type(even){
+    flex-direction: row-reverse;
+}
+
+.split .text{
+    width: 45%;
+}
+
+.download-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fa-file-pdf{
+    font-size: 80px;
+    margin: 50px;
+}

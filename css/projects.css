@@ -60,27 +60,6 @@
     object-fit: contain;
 }
 
-#photography{
-    margin: 20px auto 40px;
-    width: 60%;
-    height: 200px;
-    border-radius: 20px;
-    background-color: #212529;
-    position: relative;
-}
-
-#photography img{
-    object-position: 50% 75%;
-    width: 98%;
-    height: 98%;
-    object-fit:cover;
-    border-radius: 18px;
-}
-
-#photography img:hover{
-    opacity: 10%;
-}
-
 @media screen and (max-width: 1425px){
     #images{
         width: 70%;
