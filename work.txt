@@ -3,7 +3,7 @@ TODO:
     - feature: translate selection (eng,sk,de,be)
     - feature: rework projects.html
         - add Terrain_Generator project
-        - change the inside structure of the modal
+        *- change the inside structure of the modal
     - feature: rework about.html
         - replace 'Why Thomas More' with progress bars for most relepant skills
         - CV:

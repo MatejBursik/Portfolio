@@ -51,7 +51,7 @@
     z-index: 100;
 }
 
-#modal{
+.modal{
     display: none;
     position: fixed;
     top: 10%;
@@ -82,7 +82,7 @@
 }
 
 @media screen and (max-width: 474px){
-    #modal{
+    .modal{
         top: 5%;
         left: 5%;
         width: 90%;
@@ -100,7 +100,7 @@
         height: 350px;
     }
 
-    #modal{
+    .modal{
         padding: 25px;
         border-radius: 25px;
     }
