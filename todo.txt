@@ -3,13 +3,12 @@ TODO:
     - feature: translate selection (eng,sk,de,be)
     - feature: rework projects.html
         - add Terrain_Generator project
-        *- change the inside structure of the modal
     - feature: rework about.html
         - replace 'Why Thomas More' with progress bars for most relepant skills
         - CV:
             - leave licenses out of education, put them into certificates
             - add IELTs and R course to certificates
-    - feature: add work.html
+    - feature: add internship.html
         - add a new tab/page to my portfolio
         - it will contain informative text + supporting documents about the internship
             - NO confidential information
@@ -23,6 +22,7 @@ TODO:
                 - Project Plan (based on the presentation givent at the start to both mentor and supervisor)
                 - Realisation document (full Thesis, written in 5W1H approach)
                 - Reflection document
+    *- add my photo to the index.html
     
 FIX:
     *- images load slowly
