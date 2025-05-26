@@ -9,14 +9,15 @@ let info;
 for (let i=0; i < modal_show.length; i++){
     modal_show[i].addEventListener('click', function(e) {
         console.log(modal_show[i].id)
-        let targetModal = Array.from(modal)
+        let target_modal = Array.from(modal)
                        .find(m => m.id === modal_show[i].id + "_modal");
 
-        if (targetModal) {
-            targetModal.style.display = "block";
+        if (target_modal) {
+            target_modal.style.display = "block";
             mBKG.style.display = "block";
+            mExit.style.display = "block";
 
-            modal.scrollTop = 0;
+            target_modal.scrollTop = 0;
         }
     });
 }
@@ -26,6 +27,7 @@ mBKG.addEventListener('click', function(e) {
         modal[i].style.display = "none";
     }
     mBKG.style.display = "none";
+    mExit.style.display = "none";
 });
 
 mExit.addEventListener('click', function(e) {
@@ -33,4 +35,5 @@ mExit.addEventListener('click', function(e) {
         modal[i].style.display = "none";
     }
     mBKG.style.display = "none";
+    mExit.style.display = "none";
 });
