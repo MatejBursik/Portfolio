@@ -1,3 +1,13 @@
+#mePhoto{
+    height: 20%;
+    border-radius: 15px;
+
+    position: absolute;
+    right: 5px;
+    top: 55px;
+    z-index: 2;
+}
+
 #carousel{
     margin: 0;
 }
@@ -32,25 +42,25 @@
     transition: opacity 1.5s;
 }
 
-img:nth-child(1){
+.pic img:nth-child(1){
     object-position: 50% 90%;
     opacity: 1;
 }
-img:nth-child(2){
+.pic img:nth-child(2){
     object-position: 50% 75%;
 }
-img:nth-child(3){
+.pic img:nth-child(3){
     object-position: 50% 50%;
 }
-img:nth-child(4){
+.pic img:nth-child(4){
     object-position: 50% 75%;
 }
-img:nth-child(5){
+.pic img:nth-child(5){
     object-position: 50% 70%;
 }
-img:nth-child(6){
+.pic img:nth-child(6){
     object-position: 50% 70%;
 }
-img:nth-child(7){
+.pic img:nth-child(7){
     object-position: 50% 70%;
 }
