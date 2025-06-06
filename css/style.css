@@ -53,6 +53,7 @@ a{
     justify-content: center;
     align-items: center;
     color: whitesmoke;
+    font-size: small;
 }
 
 .navButton:hover{

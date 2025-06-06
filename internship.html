@@ -21,11 +21,11 @@
             <a href="about.html" class="navButton exo-2">
                 <p>ABOUT ME</p>
             </a>
-            <a href="about.html" class="navButton exo-2">
-                <p>INTERNSHIP</p>
-            </a>
             <a href="projects.html" class="navButton exo-2">
                 <p>PROJECTS</p>
+            </a>
+            <a href="about.html" class="navButton exo-2">
+                <p>INTERNSHIP</p>
             </a>
         </div>
     </header>
@@ -38,29 +38,141 @@
         <h2 class="exo-2">FIELD: AI Research & Development</h2>
     </section>
 
-    <!-- descrition of the assignment, go over information in project plan -->
-    <section>
-        <h2>About Materialise Motion</h2>
+    <div id="container">
+        <!-- Abstract -->
+        <section>
+            <div class="spacing">
+                <h2 class="exo-2">Abstract</h2>
+                <p class="verdana">
+                    During my internship at Materialise Motion, I developed a proof-of-concept workflow that automates the detection
+                    of the rearfoot angle from video images. The goal was to assist clinicians in creating customized shoe inserts
+                    by providing a reliable and efficient method for measuring this biomechanical parameter. I explored two 
+                    different approaches: using a pretrained model (Detectron2) and creating a custom AI model using PyTorch.
+                    These models were used to detect markers on patients' legs from video footage and then compute the rearfoot angle.
+                    As an optional task, I build a test application using Streamlit to demonstrate the workflows and to better showcase the model results.
+                </p>
+            </div>
+        </section>
 
-        <h2>Project assignment</h2>
+        <!-- descrition of the assignment, go over information in project plan -->
+        <section>
+            <div class="spacing">
+                <h2 class="exo-2">About Materialise Motion</h2>
+                <p class="verdana">
+                    Materialise Motion, a division of Materialise, a company known for its pioneering work in 3D printing and digital manufacturing. Materialise Motion specializes in creating
+                    innovative solutions for footwear and orthotics, with a strong focus on custom shoe inserts. Materialise Motion expertise lies in combining advanced biomechanics with cutting-edge
+                    3D printing technology. One of their standout products is the Phits 3D-printed orthotics, which are tailored to each individual's unique movement patterns.
+                    Materialise Motion is working on revolutionizing the field of orthotics by offering a sustainable and highly customized alternative to traditional methods.
+                    The main office of Materialise is located in Leuven but the Materialise Motion office is located in Paal.
+                </p>
+            </div>
 
-        <h2>Project timeline</h2>
+            <div class="spacing">
+                <img src="assets/internship/materialise_paal.jpg" alt="materialise_paal">
+            </div>
 
-    </section>
+            <div class="spacing">
+                <h2 class="exo-2">Project assignment</h2>
+                <p class="verdana">
+                    The assignment involved developing a commercially viable and computationally light AI workflow to automatically
+                    track and calculate the rearfoot angle from video footage. This would allow clinicians to perform this analysis without
+                    expensive equipment or manual measurements. The workflow needed to function using simple markers placed 
+                    on the legs. It was aimed at integration into Materialise's existing clinical software.
+                </p>
+            </div>
 
-    <!-- descrition of the completion of the assignment, go over information in realization document -->
-    <section>
-        <h2>Pretrained model</h2>
+            <div class="spacing">
+                <h2 class="exo-2">What is this rearfoot angle?</h2>
+                <p class="verdana">
+                    The rearfoot angle refers to the angular relationship between the heel bone and the lower leg. It is often used in biomechanical assessments to evaluate foot
+                    alignment. This angle can indicate whether the rearfoot is in a neutral, inward tilt, or outward tilt position. Understanding the rearfoot angle 
+                    can be used for designing custom shoe inserts that address specific foot alignment issues and enhance comfort and performance. For the purpose of this assignment, 
+                    there are three points defined on the leg between which the rearfoot angle can be measured. These points are middle of the heel, middle of the ankle, and middle of the calf.
+                </p>
+            </div>
 
-        <h2>Custom model</h2>
+            <div class="spacing">
+                <img src="assets/internship/rearfoot_angle.png" alt="rearfoot angle">
+            </div>
 
-        <h2>Test Application</h2>
-        <h3>Demo video</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=p07WWnMXMXk" allowfullscreen></iframe>
+            <div class="spacing">
+                <h2 class="exo-2">Why this assignment?</h2>
+                <p class="verdana">
+                    At the moment, there are not many ways of measuring this angle efficiently and automatically, especially not while the patient is in motion. The aim of this 
+                    proof-of-concept workflows and test application would be to allow clinicians to easily make this measurement, enhancing their ability to create custom shoe inserts for
+                    patients. By making the measurement automated, it eliminates the possibility of human error and reduces the time of measuring and analysing the rearfoot angle. Since the
+                    eventual application would be on a handheld device, it removes the need for specialized equipment to perform the measurement.
+                </p>
+            </div>
 
-    </section>
+            <div class="spacing">
+                <h2 class="exo-2">Project timeline</h2>
+                <ul class="verdana">
+                    <li><strong>Weeks 1–5 (24/2 – 28/3):</strong> Research and integrate a pretrained model (Detectron2)</li>
+                    <li><strong>Weeks 6–10 (31/3 – 2/5):</strong> Develop custom model using PyTorch</li>
+                    <li><strong>Weeks 11–13 (5/5 – 23/5):</strong> Build a test application and prepare project handover</li>
+                </ul>
+            </div>
 
-    <!-- ? Reflection document ? -->
+            <p><a href="assets/internship/Project_plan_Matej_Buršík.pdf" target="_blank">Project Plan</a></p>
+        </section>
+
+        <!-- descrition of the completion of the assignment, go over information in realization document -->
+        <section>
+            <div class="spacing">
+                <h2 class="exo-2">Pretrained model</h2>
+                <p class="verdana">
+                    The pretrained model approach utilized Detectron2, an AI framework developed by Facebook AI Research and it uses a commercially viable license. 
+                    It was chosen due to its robust performance and community support. The model was trained on a COCO-style reformatted dataset using manually 
+                    labeled keypoints from earlier attempts at the project. Multiple bounding box sizes and augmentation strategies were tested, with an 80-pixel 
+                    buffer size for the bounding box produced the most accurate results. Despite being quick to deploy, the pretrained model had limitations in execution time and flexibility for future improvements.
+                </p>
+            </div>
+
+            <div class="spacing">
+                <h2 class="exo-2">Custom model</h2>
+                <p class="verdana">
+                    A custom keypoint detection model was built from scratch using PyTorch to gain more control over architecture, efficiency, and performance. 
+                    The development involved experimenting with various architectures including baseline convolutional networks, feature extractors, bottleneck layers, 
+                    residual blocks, and multi-headed outputs. Extensive hyperparameter tuning and data preprocessing including edge enhancing and histogram equalization led 
+                    to a high-performing model capable of running significantly faster than the pretrained alternative. The best model combined multi-headed outputs, residual blocks, and bottlenecks 
+                    and outperformed other configurations in both accuracy and execution speed.
+                </p>
+            </div>
+
+            <div class="spacing">
+                <h2 class="exo-2">Test Application</h2>
+                <p class="verdana">
+                    A Streamlit-based test application was developed in the final phase of the internship to showcase the AI models in a user-friendly interface. 
+                    The app allows clinicians to upload a video of a walking patient, select between models, process video frames, and view calculated rearfoot angles over time. 
+                    It featured dynamic visualizations, keypoint overlays, and leg-by-leg angle readouts. This application served as a practical demonstration of the full AI pipeline and 
+                    a proof-of-concept for future clinical tools.
+                </p>
+            </div>
+
+            <div id="demo_video">
+                <h3 class="exo-2">Demo video</h3>
+                <div class="iframe-wrapper">
+                    <iframe src="https://www.youtube.com/embed/p07WWnMXMXk" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="spacing">
+                <h2 class="exo-2">Conclusion</h2>
+                <p class="verdana">
+                    The internship at Materialise Motion resulted in a successful proof-of-concept for automated rearfoot angle tracking using video images. 
+                    Through extensive research and development, both pretrained and custom AI models were evaluated and refined, with the custom model ultimately offering 
+                    better speed and flexibility, but the pretrained model offered an overall better accuracy. The accompanying test application demonstrated the practical 
+                    viability of the solution, enabling clinicians to measure biomechanical data with minimal effort and equipment. Beyond technical achievements, the internship 
+                    provided valuable experience in AI development, data processing, and software development.
+                </p>
+            </div>
+
+            <p><a href="assets/internship/placeholder_realization_doc.pdf" target="_blank">Realisation Document</a></p>
+        </section>
+
+        <!-- ? Reflection document ? -->
+    </div>
 
     <footer>
         <div id="foot">

@@ -3,26 +3,14 @@ TODO:
     - feature: translate selection (eng,sk,de,be)
     - feature: rework projects.html
         - add Terrain_Generator project
+        - add RsPass project
     - feature: rework about.html
         - replace 'Why Thomas More' with progress bars for most relepant skills
         - CV:
             - leave licenses out of education, put them into certificates
             - add IELTs and R course to certificates
-    - feature: add internship.html
-        - add a new tab/page to my portfolio
-        - it will contain informative text + supporting documents about the internship
-            - NO confidential information
-        - Page content
-            - title
-            - summary
-                - abstract of my internship assignment
-                - focus on what and how
-                - writen in past tense
-            - supporting documents
-                - Project Plan (based on the presentation givent at the start to both mentor and supervisor)
-                - Realisation document (full Thesis, written in 5W1H approach)
-                - Reflection document
-    *- add my photo to the index.html
+    *- feature: add internship.html
+        - improve links to pdf
     
 FIX:
     *- images load slowly
@@ -40,3 +28,5 @@ fonts:
     - teko
     - monospace
     - arial
+    - verdana
+    
