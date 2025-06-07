@@ -57,3 +57,61 @@
     height: 100%;
     border: 0;
 }
+
+#buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.button{
+    width: 20%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #212529;
+    color: whitesmoke;
+}
+
+.button:hover{
+    background-color: #383c41;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1045px){
+    .button{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 575px){
+    #welcome h1{
+        font-size: 1.8rem;
+    }
+
+    #welcome h2{
+        font-size: 1rem;
+    }
+
+    #demo_video{
+        width: 90%;
+    }
+
+    #buttons{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    
+    .button{
+        width: 70%;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
