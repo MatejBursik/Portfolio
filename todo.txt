@@ -3,7 +3,6 @@ TODO:
     - feature: translate selection (eng,sk,de,be)
     - feature: rework about.html
         - replace 'Why Thomas More' with progress bars for most relepant skills
-        *- improve the text on about me page
     - feature: add internship.html
         *- add soft skills to internship page
 
