@@ -1,9 +1,6 @@
 TODO:
     - feature: digitally sign images (in metadata)
     - feature: translate selection (eng,sk,de,be)
-    - feature: rework projects.html
-        *- add Terrain_Generator project
-        *- add RsPass project
     - feature: rework about.html
         - replace 'Why Thomas More' with progress bars for most relepant skills
         - improve the text on about me page

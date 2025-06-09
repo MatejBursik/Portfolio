@@ -40,12 +40,30 @@
 
     <section id="projects">
         <div class="grouping">
+            <div id="rspass" class="modal-show">
+                <div class="modal-title exo-2">
+                    <span>RsPass - Password manager</span>
+                </div>
+                <div class="modal-image">
+                    <img src="assets/p7/using_rspass.png" alt="Using the RsPass in cli">
+                </div>
+            </div>
+
             <div id="utopia" class="modal-show">
                 <div class="modal-title exo-2">
                     <span>Dungeon Quest - Utopia project</span>
                 </div>
                 <div class="modal-image">
                     <img src="assets/p1/utopia_dq.png" alt="Dungeon Quest">
+                </div>
+            </div>
+
+            <div id="terrain" class="modal-show">
+                <div class="modal-title exo-2">
+                    <span>Terrain generator</span>
+                </div>
+                <div class="modal-image">
+                    <img src="assets/p5/terrain_1.png" alt="Navigating generated terrain">
                 </div>
             </div>
 
@@ -131,7 +149,7 @@
                 between cells in a randomized manner which creates a maze that has a single connected path with no loops. The maze generation uses randomized DFS as the algorithm to create the maze. 
                 Depth First Search (DFS) is an algorithm used in computer science for traversing or searching through data structures, for example trees and graphs. 
                 The algorithm is placed in a basic Pygame game loop for visualization. Lastly, after the application window is exited, I use cv2 the make and save an image out of the maze. 
-                If you want to read more detail information about the project, please visit the GitHub link below.
+                If you want to read more about the project, please visit the GitHub link below.
             </p>
             <h3>Reason</h3>
             <p id="reason">
@@ -242,6 +260,63 @@
             <h4 style="text-align: center; margin-bottom: 25px;">Python version</h4>
             <img src="assets/p3/simCPP.png">
             <h4 style="text-align: center;">C++ version</h4>
+        </div>
+    </div>
+
+    <div class="modal" id="terrain_modal">
+        <div class="text">
+            <h2 id="title">Terrain generator</h2>
+            <h3>Description</h3>
+            <p id="description">
+                Started with me wanting to learn about noise generation and visualizing it, inspired by 'The Coding Train' on Youtube. 
+                Then it started to spiral more into a game development experiment, with focus on learning Rust and OpenGL. 
+                This project is ongoing since I plan on integrating more game features and learning more while doing so.
+            </p>
+            <h3>Reason</h3>
+            <p id="reason">
+                After the spark from Utopia project, I started looking into different way of making video games. In the end, I landed on Rust with OpenGL. 
+                Rust because of its high performance, memory safety, and good mix of high-level functionalities with low-level control. 
+                OpenGL because if its cross-platform compatibility and it being good for learning graphics fundamentals.
+            </p>
+            <h3 id="wilH3">What I learned</h3>
+            <p id="wil">
+                This is my first proper Rust project, so I learned a lot about code in Rust. I also learned quite a bit about OpenGL and how to use it to develop an application. 
+                Additionally, I learned about github workflows since I wanted to make a simple deployment for people who do not want to compile it on their own.
+            </p>
+            <h3>Source</h3>
+            <p id="source"><a href="https://github.com/MatejBursik/Terrain_Generator">Link to github</a></p>
+        </div>
+        <div id="images">
+            <h4 style="text-align: center;">Navigating generated terrain</h4>
+            <img src="assets/p5/terrain_1.png">
+            <img src="assets/p5/terrain_2.png">
+        </div>
+    </div>
+
+    <div class="modal" id="rspass_modal">
+        <div class="text">
+            <h2 id="title">RsPass - Password manager</h2>
+            <h3>Description</h3>
+            <p id="description">
+                RsPass is a secure, cross-platform password manager built in Rust, designed for use from a command line. It encrypts your credentials using AES-256-GCM 
+                and protects your master password with Argon2 hashing. If you want to read more about the project, please visit the GitHub link below.
+            </p>
+            <h3>Reason</h3>
+            <p id="reason">
+                I wanted to practice writing more Rust code which results in an actual usable application.
+            </p>
+            <h3 id="wilH3">What I learned</h3>
+            <p id="wil">
+                This was the first time I made a command line program in Rust, so I learn had to learn how to handle additional arguments from the command line. 
+                Additionally, since the application is storing passwords, it needs to be secure. So, I had to refresh my knowledge on encryption and hashing, and then 
+                figure out how to implement it into code.
+            </p>
+            <h3>Source</h3>
+            <p id="source"><a href="https://github.com/MatejBursik/rspass">Link to github</a></p>
+        </div>
+        <div id="images">
+            <img src="assets/p7/using_rspass.png">
+            <h4 style="text-align: center;">Using the RsPass in windows CMD cli</h4>
         </div>
     </div>
 
