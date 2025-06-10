@@ -3,11 +3,9 @@ TODO:
     - feature: translate selection (eng,sk,de,be)
     - feature: rework about.html
         - replace 'Why Thomas More' with progress bars for most relepant skills
-    - feature: add internship.html
-        *- add soft skills to internship page
 
 Feedback meeting:
-    - highlight words in long text
+    *- highlight words in long text
     - counterintuitive home page, interests and projects sections are not buttons
     - color of home does not really match to the rest
 
