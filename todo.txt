@@ -2,7 +2,7 @@ TODO:
     - feature: digitally sign images (in metadata)
     - feature: translate selection (eng,sk,de,be)
     - feature: rework about.html
-        - replace 'Why Thomas More' with progress bars for most relepant skills
+        - replace 'Why Thomas More' with 'I have experience with'
 
 Feedback meeting:
     *- highlight words in long text
