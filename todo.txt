@@ -6,7 +6,6 @@ TODO:
 
 Feedback meeting:
     *- highlight words in long text
-    - counterintuitive home page, interests and projects sections are not buttons
     - color of home does not really match to the rest
 
 FIX:

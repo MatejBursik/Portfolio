@@ -32,12 +32,12 @@
 
 #interests a,
 #projects a{
-    color: rgb(0, 255, 210);
+    color: whitesmoke;;
 }
 
 #interests a:hover,
 #projects a:hover{
-    color: rgb(0, 175, 255);
+    color: rgb(0, 255, 210);
     text-decoration: underline;
 }
 
