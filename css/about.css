@@ -52,12 +52,13 @@ section{
 #profileAbout a,
 #HIF a{
     color: black;
+    text-decoration: underline;
 }
 
 #profileAbout a:hover,
 #HIF a:hover{
-    color: #2c00a5;
-    text-decoration: underline;
+    color: #32383d;
+    font-weight: bolder;
 }
 
 #PHIF{

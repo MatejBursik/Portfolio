@@ -47,7 +47,7 @@
                     During my internship at Materialise Motion, I developed a proof-of-concept workflow that automates the detection
                     of the rearfoot angle from video images. The goal was to assist clinicians in creating customized shoe inserts
                     by providing a reliable and efficient method for measuring this biomechanical parameter. I explored two 
-                    different approaches: using a pretrained model (Detectron2) and creating a custom AI model using PyTorch.
+                    different approaches: using a pre-trained model (Detectron2) and creating a custom AI model using PyTorch.
                     These models were used to detect markers on patients' legs from video footage and then compute the rearfoot angle.
                     As an optional task, I build a test application using Streamlit to demonstrate the workflows and to better showcase the model results.
                 </p>
@@ -108,7 +108,7 @@
             <div class="spacing">
                 <h2 class="exo-2">Project timeline</h2>
                 <ul class="verdana">
-                    <li><strong>Weeks 1–5 (24/2 – 28/3):</strong> Research and integrate a pretrained model (Detectron2)</li>
+                    <li><strong>Weeks 1–5 (24/2 – 28/3):</strong> Research and integrate a pre-trained model (Detectron2)</li>
                     <li><strong>Weeks 6–10 (31/3 – 2/5):</strong> Develop custom model using PyTorch</li>
                     <li><strong>Weeks 11–13 (5/5 – 23/5):</strong> Build a test application and prepare project handover</li>
                 </ul>
@@ -129,12 +129,12 @@
         <!-- descrition of the completion of the assignment, go over information in realization document -->
         <section>
             <div class="spacing">
-                <h2 class="exo-2">Pretrained model</h2>
+                <h2 class="exo-2">Pre-trained model</h2>
                 <p class="verdana">
-                    The pretrained model approach utilized Detectron2, an AI framework developed by Facebook AI Research and it uses a commercially viable license. 
+                    The pre-trained model approach utilized Detectron2, an AI framework developed by Facebook AI Research and it uses a commercially viable license. 
                     It was chosen due to its robust performance and community support. The model was trained on a COCO-style reformatted dataset using manually 
                     labeled keypoints from earlier attempts at the project. Multiple bounding box sizes and augmentation strategies were tested, with an 80-pixel 
-                    buffer size for the bounding box produced the most accurate results. Despite being quick to deploy, the pretrained model had limitations in execution time and flexibility for future improvements.
+                    buffer size for the bounding box produced the most accurate results. Despite being quick to deploy, the pre-trained model had limitations in execution time and flexibility for future improvements.
                 </p>
             </div>
 
@@ -144,7 +144,7 @@
                     A custom keypoint detection model was built from scratch using PyTorch to gain more control over architecture, efficiency, and performance. 
                     The development involved experimenting with various architectures including baseline convolutional networks, feature extractors, bottleneck layers, 
                     residual blocks, and multi-headed outputs. Extensive hyperparameter tuning and data preprocessing including edge enhancing and histogram equalization led 
-                    to a high-performing model capable of running significantly faster than the pretrained alternative. The best model combined multi-headed outputs, residual blocks, and bottlenecks 
+                    to a high-performing model capable of running significantly faster than the pre-trained alternative. The best model combined multi-headed outputs, residual blocks, and bottlenecks 
                     and outperformed other configurations in both accuracy and execution speed.
                 </p>
             </div>
@@ -170,8 +170,8 @@
                 <h2 class="exo-2">Conclusion</h2>
                 <p class="verdana">
                     The internship at Materialise Motion resulted in a successful proof-of-concept for automated rearfoot angle tracking using video images. 
-                    Through extensive research and development, both pretrained and custom AI models were evaluated and refined, with the custom model ultimately offering 
-                    better speed and flexibility, but the pretrained model offered an overall better accuracy. The accompanying test application demonstrated the practical 
+                    Through extensive research and development, both pre-trained and custom AI models were evaluated and refined, with the custom model ultimately offering 
+                    better speed and flexibility, but the pre-trained model offered an overall better accuracy. The accompanying test application demonstrated the practical 
                     viability of the solution, enabling clinicians to measure biomechanical data with minimal effort and equipment. Beyond technical achievements, the internship 
                     provided valuable experience in AI development, data processing, and software development.
                 </p>
