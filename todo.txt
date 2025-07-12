@@ -2,10 +2,7 @@ TODO:
     - feature: digitally sign images (in metadata)
     - feature: translate selection (eng,sk,de,be)
     - feature: rework about.html
-        - replace 'Why Thomas More' with 'I have experience with'
-
-Feedback meeting:
-    - color of home does not really match to the rest
+        *- replace 'Why Thomas More' with 'I have experience with'
 
 FIX:
     *- images load slowly
