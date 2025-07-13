@@ -114,6 +114,20 @@ section{
     width: 30%;
 }
 
+#ACS h2{
+    text-align: center;
+}
+
+.tools{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tools a{
+    margin: 12px;
+}
+
 #HIF h2,
 #HIF p,
 #ACS h2,

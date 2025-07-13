@@ -1,8 +1,7 @@
 TODO:
     - feature: digitally sign images (in metadata)
     - feature: translate selection (eng,sk,de,be)
-    - feature: rework about.html
-        *- replace 'Why Thomas More' with 'I have experience with'
+    - feature: make a better photo portfolio
 
 FIX:
     *- images load slowly
